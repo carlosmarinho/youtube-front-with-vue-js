@@ -1,7 +1,8 @@
 <template>
     <div>
         <SearchBar @termChange="onTermChange"></SearchBar>
-        <VideoList v-bind:videos="videos"></VideoList>
+        <VideoList :videos="videos"></VideoList>
+        <!-- VideoList v-bind:videos="videos"></VideoList-->
         <!--the first videos here is the name of the props
            and the second one is the data.videos 
            in react this second one will be the state -->
